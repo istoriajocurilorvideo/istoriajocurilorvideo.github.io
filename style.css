@@ -34,19 +34,29 @@
 .home4
 {
     font-size: 15px; text-indent: 1cm; line-height: 0.42cm; margin-left: 7.5cm;
-    margin-right: 7.5cm; background: rgba(150,90,0,0.6); padding: 3px 12px 3px 12px; 
+    margin-right: 7.5cm; background: rgba(90,190,235,0.2); padding: 3px 12px 3px 12px; 
     -webkit-box-shadow: inset -4px -2px 48px 13px rgba(0,0,0,0.87);
     -moz-box-shadow: inset -4px -2px 48px 13px rgba(0,0,0,0.87);
     box-shadow: inset -4px -2px 48px 13px rgba(0,0,0,0.87);
 }
-.fun
+
+.home5
 {
     font-size: 15px; text-indent: 1cm; line-height: 0.42cm; margin-left: 7.5cm;
-    margin-right: 7.5cm; background: rgba(111,55,55,0.85); padding: 3px 12px 3px 12px; 
+    margin-right: 7.5cm; background: rgba(195,145,145,0.2); padding: 3px 12px 3px 12px; 
     -webkit-box-shadow: inset -4px -2px 48px 13px rgba(0,0,0,0.87);
     -moz-box-shadow: inset -4px -2px 48px 13px rgba(0,0,0,0.87);
     box-shadow: inset -4px -2px 48px 13px rgba(0,0,0,0.87);
 }
+.home6
+{
+    font-size: 15px; text-indent: 1cm; line-height: 0.42cm; margin-left: 7.5cm;
+    margin-right: 7.5cm; background: rgba(70,35,0,0.3); padding: 3px 12px 3px 12px; 
+    -webkit-box-shadow: inset -4px -2px 48px 13px rgba(0,0,0,0.87);
+    -moz-box-shadow: inset -4px -2px 48px 13px rgba(0,0,0,0.87);
+    box-shadow: inset -4px -2px 48px 13px rgba(0,0,0,0.87);
+}
+
 
 #tabel
 {
@@ -98,6 +108,12 @@ body.rpg2
     background-attachment: fixed; 
     color:rgb(255,255,255);
 }
+body.rpg3
+{  
+    background-image: url('poze/mass.jpg');
+    background-attachment: fixed; 
+    color:rgb(255,255,255);
+}
 body.rts
 {  
     background-image: url('poze/warcraft.jpg');
@@ -116,6 +132,18 @@ body.horror
     background-attachment: fixed; 
     color:rgb(255,255,255);
 }
+body.horror2
+{  
+    background-image: url('poze/wallp.jpg');
+    background-attachment: fixed; background-position: 50% 50%;
+    color:rgb(255,255,255);
+}
+body.horror3
+{  
+    background-image: url('poze/amnesia.jpg');
+    background-attachment: fixed; background-position: 50% 50%;
+    color:rgb(255,255,255);
+}
 #game_body
 {  
     background-image: url('poze/mario.jpg');
@@ -129,45 +157,6 @@ body.horror
     background-image: url('poze/small blue frog.jpg');
     background-attachment: fixed;
     color:rgb(255,255,255);
-}
-
-#title 
-{
-    font-size: 25px; text-align: center; margin-bottom: 2cm; font-weight: 100; font-family: 'PoisonHope-Regular'; 
-    background-color: rgb(21,14,165); padding: 7px 7px 7px 7px; 
-    -webkit-box-shadow: inset -4px -2px 5px 13px rgba(0,0,0,0.87);
-    -moz-box-shadow: inset -4px -2px 5px 13px rgba(0,0,0,0.87);
-    box-shadow: inset -4px -2px 5px 13px rgba(0,0,0,0.87);
-}#titlew 
-{
-    font-size: 25px; text-align: center; margin-bottom: 2cm; font-weight: 100; font-family: 'PoisonHope-Regular'; 
-    background-color: rgb(150,90,0); padding: 7px 7px 7px 7px; 
-    -webkit-box-shadow: inset -4px -2px 5px 13px rgba(0,0,0,0.87);
-    -moz-box-shadow: inset -4px -2px 5px 13px rgba(0,0,0,0.87);
-    box-shadow: inset -4px -2px 5px 13px rgba(0,0,0,0.87);
-}#titleh 
-{
-    font-size: 25px; text-align: center; margin-bottom: 2cm; font-weight: 100; font-family: 'PoisonHope-Regular'; 
-    background-color: rgb(90,0,0); padding: 7px 7px 7px 7px; 
-    -webkit-box-shadow: inset -4px -2px 5px 13px rgba(0,0,0,0.87);
-    -moz-box-shadow: inset -4px -2px 5px 13px rgba(0,0,0,0.87);
-    box-shadow: inset -4px -2px 5px 13px rgba(0,0,0,0.87);
-}
-#titletw 
-{
-    font-size: 25px; text-align: center; margin-bottom: 2cm; font-weight: 100; font-family: 'PoisonHope-Regular'; 
-    background-color: rgb(10,65,15); padding: 7px 7px 7px 7px; 
-    -webkit-box-shadow: inset -4px -2px 5px 13px rgba(0,0,0,0.87);
-    -moz-box-shadow: inset -4px -2px 5px 13px rgba(0,0,0,0.87);
-    box-shadow: inset -4px -2px 5px 13px rgba(0,0,0,0.87);
-}
-#title_fun
-{
-    font-size: 35px; text-align: center; font-weight: 100; font-family: 'Qualite Deluxe Platinium'; 
-    background-color: rgb(111,55,55); padding: 7px 7px 7px 7px; 
-    -webkit-box-shadow: inset -4px -2px 5px 13px rgba(0,0,0,0.5);
-    -moz-box-shadow: inset -4px -2px 5px 13px rgba(0,0,0,0.5);
-    box-shadow: inset -4px -2px 5px 13px rgba(0,0,0,0.5);
 }
 
 #border
