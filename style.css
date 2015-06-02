@@ -56,7 +56,14 @@
     -moz-box-shadow: inset -4px -2px 48px 13px rgba(0,0,0,0.87);
     box-shadow: inset -4px -2px 48px 13px rgba(0,0,0,0.87);
 }
-
+.home7
+{
+    font-size: 15px; text-indent: 1cm; line-height: 0.42cm; margin-left: 7.5cm;
+    margin-right: 7.5cm; background: rgba(70,35,0,0.3); padding: 3px 12px 3px 12px; 
+    -webkit-box-shadow: inset -4px -2px 48px 13px rgba(0,0,0,0.87);
+    -moz-box-shadow: inset -4px -2px 48px 13px rgba(0,0,0,0.87);
+    box-shadow: inset -4px -2px 48px 13px rgba(0,0,0,0.87);
+}
 
 #tabel
 {
@@ -123,6 +130,12 @@ body.rts
 body.rts2
 {  
     background-image: url('poze/shogun.jpg');
+    background-attachment: fixed; 
+    color:rgb(255,255,255);
+}
+body.rts3
+{  
+    background-image: url('poze/vic.jpg');
     background-attachment: fixed; 
     color:rgb(255,255,255);
 }

@@ -1,7 +1,7 @@
 .home
 {
 	font-size: 15px; text-indent: 1cm; line-height: 0.42cm; margin-left: 7.5cm;
-	margin-right: 7.5cm; background: rgba(21,14,165,0.85); padding: 3px 12px 3px 12px; 
+	margin-right: 7.5cm; background: rgba(21,14,165,0.5); padding: 3px 12px 3px 12px; 
     -webkit-box-shadow: inset -4px -2px 48px 13px rgba(0,0,0,0.87);
     -moz-box-shadow: inset -4px -2px 48px 13px rgba(0,0,0,0.87);
     box-shadow: inset -4px -2px 48px 13px rgba(0,0,0,0.87);
@@ -10,12 +10,13 @@
 .fun
 {
     font-size: 15px; text-indent: 1cm; line-height: 0.42cm; margin-left: 7.5cm;
-    margin-right: 7.5cm; background: rgba(111,55,55,0.85); padding: 3px 12px 3px 12px; 
+    margin-right: 7.5cm; background: rgba(111,55,55,0.8); padding: 3px 12px 3px 12px; 
     -webkit-box-shadow: inset -4px -2px 48px 13px rgba(0,0,0,0.87);
     -moz-box-shadow: inset -4px -2px 48px 13px rgba(0,0,0,0.87);
     box-shadow: inset -4px -2px 48px 13px rgba(0,0,0,0.87);
 }
-
+.lol
+{text-indent: 0cm}
 #tabel
 {
     margin-top: 0.35cm; text-indent: 0cm;
@@ -42,6 +43,7 @@
 
 a.one:hover{background-color:rgb(245,192,33); font-style: italic;}
 a.one:visited{ color: rgb(215,0,0);}
+
 ul.neordonate
 {
     list-style-type: disc; list-style-position: inherit; 
@@ -52,11 +54,11 @@ p::first-letter
     color: #ff0000;
     font-size: 22px;
 }
- .1
- {margin margin-left: 0.2cm;}
+.1
+{margin margin-left: 0.2cm;}
 body
 {  
-    background-image: url('poze/tetris.jpg');
+    background-image: url('poze/atari.jpg');
     background-attachment: fixed; 
     color:rgb(255,255,255);
 }
