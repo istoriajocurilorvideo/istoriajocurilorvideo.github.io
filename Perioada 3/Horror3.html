@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<link href="menu.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
+<head>
+<title>Istoria-Jocurilor-Video</title>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+<script> 
+$(document).ready(function(){
+    $("#flip").click(function(){
+        $("#panel").slideToggle("slow");
+    });
+});
+</script>
+
+</head>
+
+<body id="game_body">
+
+
+<ul><li id="flip"><a class="two" href="#SHOW"  id="list">SHOW MENU</a></ul>
+
+<ul  id="panel">
+	<li><a class="two" href="website/home.html">Home Page</a></li>
+	<li><a class="two" href="website/funfacts.html">Fun Facts</a></li>
+	<li><a class="two" href="website/gamelist.html">Game List</a></li>
+	<li><a class="two" href="http://www.indiedb.com/">Indie DB</a></li>
+	<li><a class="two" href="website/about.html">About Us</a></li>
+</ul>
+
+</body>
+</html>
