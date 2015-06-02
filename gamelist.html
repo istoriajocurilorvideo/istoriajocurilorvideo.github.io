@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<link href="css/menu.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<head>
+<title>Istoria-Jocurilor-Video</title>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+<script> 
+$(document).ready(function(){
+    $("#flip").click(function(){
+        $("#panel").slideToggle("slow");
+    });
+});
+</script>
+
+</head>
+
+<body id="game_body">
+
+
+<ul><li id="flip"><a class="two" href="#SHOW"  id="list">SHOW MENU</a></ul>
+
+<ul  id="panel">
+	<li><a class="two" href="home.html">Home Page</a></li>
+	<li><a class="two" href="funfacts.html">Fun Facts</a></li>
+	<li><a class="two" href="gamelist.html">Game List</a></li>
+	<li><a class="two" href="http://www.indiedb.com/">Indie DB</a></li>
+	<li><a class="two" href="about.html">About Us</a></li>
+</ul>
+
+<table id="liste" align="center" border="11" cellpadding="15">
+<tr>
+	<td colspan="2" align= "center">Jocuri revolutionare ale fiecarei ategorii si perioade.</td>
+</tr>
+<tr><ol>
+    <td align="center">
+    <li>1990 > 2000
+		<ol>
+			<li><a class="one" href="RPG1.html">RPG</a>
+			<li><a class="one" href="RTS1.html">RTS</a>
+			<li><a class="one" href="Horror1.html">Horror</a>
+		</ol>	
+		<li>2010 > 2016
+		<ol>
+			<li><a class="one" href="RPG3.html">RPG</a>
+			<li><a class="one" href="RTS3.html">RTS</a>
+			<li><a class="one" href="Horror3.html">Horror</a>
+		</ol></td>
+		<td align="center">
+		<li>2000 > 2010
+		<ol>
+			<li><a class="one" href="RPG2.html">RPG</a>
+			<li><a class="one" href="RTS2.html">RTS</a>
+			<li><a class="one" href="Horror2.html">Horror</a>
+		</ol>
+	<li>Upcoming
+		<ol>
+			<li><a class="one" href="RPG4.html">RPG</a>
+			<li><a class="one" href="RTS4.html">RTS</a>
+			<li><a class="one" href="Horror4.html">Horror</a>
+		</ol></td>
+	</ol></tr>
+</table>
+</body>
+</html>

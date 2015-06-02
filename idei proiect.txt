@@ -1,0 +1,72 @@
+Istoria Gamingului pe Plan Mondial
+
+To do list:
+
+-homepage:    SCHIMBA LOREM IPSUM
+
+	-cum a aparut gamingul
+	-primele jocuri
+	-comuinitatea
+	-esports
+		-premii
+		-sportivi
+			-cariere si venituri
+		-fanbase
+
+	-industrie
+		-profit
+		-declin
+		-perioada aur
+-fun facts:
+
+	-imbracamintea lui mario
+	-dark souls patch pt dificultate
+	-speedrun
+	-skill-uri:
+		-reflexe
+		-vedere
+		-multi-tasking
+		-attention span
+		-atentie distributiva
+		-etc
+
+
+-LISTA A JOCURILOR
+	
+	-1990->2000
+		-RPG
+		-RTS
+		-shooter
+		-horror
+		-puzzle
+		-racing
+		-other
+
+	-2000->2010
+		-RPG
+		-RTS
+		-shooter
+		-horror
+		-puzzle
+		-racing
+		-other
+
+	-2015->2016
+		-RPG
+		-RTS
+		-shooter
+		-horror
+		-puzzle
+		-racing
+		-other
+	
+
+	
+
+
+
+
+
+
+
+
